@@ -1,0 +1,32 @@
+[
+    {
+        "model": "home.linkitem",
+        "pk": 1,
+        "fields": {
+            "url": "https://www.elastic.co/guide/en/apm/agent/python/current/index.html",
+            "label": "APM Python Agent Reference",
+            "description": "",
+            "position": 10
+        }
+    },
+    {
+        "model": "home.linkitem",
+        "pk": 2,
+        "fields": {
+            "url": "https://www.elastic.co/products/apm",
+            "label": "Elastic APM - Product Page",
+            "description": "Open source application performance monitoring\r\nAlready housing logs and system metrics in Elasticsearch? Expand to application metrics with Elastic APM. See exactly where your application is spending time so you can quickly fix issues and feel good about the code you push.",
+            "position": 20
+        }
+    },
+    {
+        "model": "home.linkitem",
+        "pk": 3,
+        "fields": {
+            "url": "http://localhost:5601/app/apm#/services/app/transactions?rangeFrom=now-15m&rangeTo=now&refreshPaused=false&refreshInterval=5000&transactionType=request",
+            "label": "Kibana - Elastic APM Dashboard",
+            "description": "This is the link to the transactions view of this app.",
+            "position": 100
+        }
+    }
+]
