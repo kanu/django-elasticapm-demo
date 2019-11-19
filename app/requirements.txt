@@ -1,0 +1,7 @@
+ipython
+ipdb
+django
+django-extensions
+elastic-apm
+psycopg2
+redis

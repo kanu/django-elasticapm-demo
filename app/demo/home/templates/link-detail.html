@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Link {{ obj.label }}</title>
+</head>
+<body>
+<div><a href="{% url "link-list" %}" >back to the list</a></div>
+<h1>{{ obj.label }}</h1>
+<div><a href="{{ url }}">{{ obj.url }}</a></div>
+<blockquote>{{ obj.description|default:"no description"}}</blockquote>
+
+<h3>This <a href="{{ url }}" target="_blank">link</a> has been clicked <b>{{ click_count }}</b> times.</h3>
+
+</body>
+</html>
